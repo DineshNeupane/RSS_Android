@@ -28,7 +28,7 @@ public class MainActivity extends ListActivity {
 
     private ProgressBar pDialog;
     ArrayList<HashMap<String, String>> rssItemList = new ArrayList<>();
-   static List<RSSItem> itemsList = new ArrayList<RSSItem>();
+   static ArrayList<RSSItem> itemsList = new ArrayList<RSSItem>();
     RSSParser rssParser = new RSSParser();
     Toolbar toolbar;
 
