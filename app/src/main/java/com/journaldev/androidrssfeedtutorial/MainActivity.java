@@ -32,7 +32,7 @@ public class MainActivity extends ListActivity {
     RSSParser rssParser = new RSSParser();
     Toolbar toolbar;
 
-    List<RSSItem> rssItems = new ArrayList<>();
+    ArrayList<RSSItem> rssItems = new ArrayList<>();
     private static String TAG_TITLE = "title";
     private static String TAG_LINK = "link";
     private static String TAG_PUB_DATE = "pubDate";

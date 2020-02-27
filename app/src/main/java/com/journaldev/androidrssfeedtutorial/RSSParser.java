@@ -41,7 +41,7 @@ public class RSSParser {
 
     }
 
-    public List<RSSItem> getRSSFeedItems(String rss_url) {
+    public ArrayList<RSSItem> getRSSFeedItems(String rss_url) {
         List<RSSItem> itemsList = new ArrayList<RSSItem>();
         String rss_feed_xml;
 
